@@ -10,7 +10,9 @@ This repository contains official code for **CVPR2024** paper:
 ## Introduction
 Mask Grounding is an innovative auxiliary task that can significantly improve the performance of existing Referring Image Segmentation algorithms by explicitly teaching these models to learn fine-grained visual grounding in their language features. Specifically, during training, these models are given sentences with randomly masked textual tokens and must learn to predict the identities of these tokens based on their surrounding textual, visual and segmentation information.
 
-
+<div align="center">
+  <img src="https://github.com/yxchng/mask-grounding/blob/main/imgs/fig1.jpg?raw=true" width="75%" height="75%"/>
+</div><br/>
 
 ## Results
 
