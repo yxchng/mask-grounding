@@ -14,6 +14,12 @@ Mask Grounding is an innovative auxiliary task that can significantly improve th
   <img src="https://github.com/yxchng/mask-grounding/blob/main/imgs/fig1.jpg?raw=true" width="100%" height="100%"/>
 </div><br/>
 
+# Setup
+Follow [LAVT](https://github.com/yz93/LAVT-RIS) instructions for environment set-up and data preparation.
+
+# Testing
+Running `bash run_test.sh` will reproduce all the results published in this work.
+
 ## Results
 
 | Backbone | RefCOCO (val) | RefCOCO (testA) | RefCOCO (testB) | RefCOCO+ (val) | RefCOCO+ (testA) | RefCOCO+ (testB) | G-Ref (val(U)) | G-Ref (test(U)) | G-Ref (val(G)) |
@@ -34,4 +40,4 @@ Mask Grounding is an innovative auxiliary task that can significantly improve th
 ```
 
 ## Reference
-This code is built on [LAVT](https://github.com/openai/CLIP), [Mask2Former-Simplify](https://github.com/zzubqh/Mask2Former-Simplify), [ovr-cnn](https://github.com/alirezazareian/ovr-cnn).
+This code is built on [LAVT](https://github.com/yz93/LAVT-RIS), [Mask2Former-Simplify](https://github.com/zzubqh/Mask2Former-Simplify), [ovr-cnn](https://github.com/alirezazareian/ovr-cnn).
