@@ -15,7 +15,8 @@ Mask Grounding is an innovative auxiliary task that can significantly improve th
 </div><br/>
 
 # Setup
-Follow [LAVT](https://github.com/yz93/LAVT-RIS) instructions for environment set-up and data preparation.
+1. Follow [LAVT](https://github.com/yz93/LAVT-RIS) instructions for environment set-up and data preparation.
+2. Download [pretrained weights](https://huggingface.co/yxchng/magnet_weights/tree/main).
 
 # Testing
 Running `bash run_test.sh` will reproduce all the results published in this work.
