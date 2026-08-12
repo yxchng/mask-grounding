@@ -1,3 +1,5 @@
+
+
 # Mask Grounding
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.13.1%20|%202.3.0-%23EE4C2C.svg?style=&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%20|%203.9%20|%203.10-blue.svg?style=&logo=python&logoColor=ffdd54)](https://www.python.org/downloads/)
@@ -16,7 +18,7 @@ Mask Grounding is an innovative auxiliary task that can significantly improve th
 
 # Setup
 1. Follow [LAVT](https://github.com/yz93/LAVT-RIS) instructions for environment set-up and data preparation.
-2. Download [pretrained weights](https://huggingface.co/yxchng/magnet_weights/tree/main).
+2. Download [pretrained weights](https://huggingface.co/yxchng/magnet_weights/tree/main) and place them in the `./checkpoints/` directory.
 
 # Testing
 Running `bash run_test.sh` will reproduce all the results published in this work.
